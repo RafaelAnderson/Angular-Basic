@@ -20,3 +20,14 @@ En una terminal ejecutar el siguiente comando: npm install -g @angular/cli
 * Material Icon Theme -> pkief.material-icon-theme
 * Prettier - Code formatter -> esbenp.prettier-vscode
 * TSLint -> ms-vscode.vscode-typescript-tslint-plugin
+
+
+### Creación proyecto Angular
+
+1. En la terminal abrir la dirección donde se creará el proyecto (cd ...) 
+2. ng new NOMBRE_PROYECTO, enter
+3. Would you like to add Angular routing? Y, enter
+4. Elegir el formato de estilos, enter
+5. En la terminal: cd NOMBRE-PROYECTO, enter
+6. En la terminal: code ., enter
+7. El proyecto estará abierto en VS Code :)
