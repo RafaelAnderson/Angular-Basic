@@ -12,7 +12,11 @@ En una terminal ejecutar el siguiente comando: npm install -g @angular/cli
 
 ### Instalación de extensiones en VS Code
 
-* angular2-inline
-* Angular Language Service
-* Debugger Chrome
-* Angular Snippets (by John Papa)
+* angular2-inline -> natewallace.angular2-inline
+* Angular Language Service -> angular.ng-template
+* Debugger Chrome -> angular.ng-template
+* Angular Snippets (by John Papa) -> johnpapa.angular2
+* EditorConfig for VSCode -> editorconfig.editorconfig
+* Material Icon Theme -> pkief.material-icon-theme
+* Prettier - Code formatter -> esbenp.prettier-vscode
+* TSLint -> ms-vscode.vscode-typescript-tslint-plugin
