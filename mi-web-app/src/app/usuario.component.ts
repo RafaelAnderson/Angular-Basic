@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './usuario.component.html'
 })
 
-export class UsuarioComponent{}
+export class UsuarioComponent{
+
+  // Variable
+  usuarioNombre = "Rafael Anderson";
+}
