@@ -8,11 +8,17 @@ import { AppComponent } from './app.component';
 import { UsuarioComponent } from './usuario.component';
 //
 import { FormsModule } from '@angular/forms';
+//
+import { LibroComponent } from './libro/libro.component';
+import { LibrosComponent } from './libros/libros.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    LibrosComponent,
+    LibroComponent
   ],
   imports: [
     BrowserModule,
