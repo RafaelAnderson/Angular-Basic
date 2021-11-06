@@ -11,4 +11,14 @@ export class LibrosComponent {
   eliminarLibro(libro: any) {
     this.libros = this.libros.filter((p) => p !== libro);
   }
+
+  guardarLibro(f: any){
+    // Mensaje por la consola del navegador
+    // console.log('objeto formulario', f);
+
+    //Validar que los campos no esten vacios - valid (verdadero o falso)
+    if(f.valid){
+      this.libros.push(f.value.nombreLibro)
+    }
+  }
 }

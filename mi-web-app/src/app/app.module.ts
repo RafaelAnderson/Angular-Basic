@@ -23,7 +23,7 @@ import { LibrosComponent } from './libros/libros.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule // Formularios en Angular
   ],
   providers: [],
   bootstrap: [AppComponent]
