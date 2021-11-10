@@ -14,6 +14,10 @@ export class LibrosService {
     this.libros.push(libroNombre);
     this.librosSubject.next();
   }
+  eliminarLibro(libroNombre: string){
+    this.libros = this.libros.filter(x => x !== libroNombre)
+    this.librosSubject.next();
+  }
 
   obtenerLibros() {
     // Esta linea es suficiente siempre y cuando los valores sean estáticos

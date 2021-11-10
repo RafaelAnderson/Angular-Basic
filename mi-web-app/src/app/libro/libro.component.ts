@@ -1,4 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { LibrosService } from '../services/libros.service';
 
 @Component({
   selector: 'app-libro',
@@ -10,8 +11,11 @@ export class LibroComponent {
   @Output() libroClicked = new EventEmitter();
   //Directiva Output
 
+  constructor(private librosService: LibrosService) {}
+
   onClicked() {
     // El evento pasa al padre, se puede capturar por el método onClicked
-    this.libroClicked.emit();
+    // this.libroClicked.emit();
+    this.librosService.eliminarLibro(this.tituloLibro);
   }
 }
