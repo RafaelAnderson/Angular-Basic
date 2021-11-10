@@ -36,3 +36,9 @@ En una terminal ejecutar el siguiente comando: npm install -g @angular/cli
 1. En la terminal: ng add @angular/material
 2. "y" en las opciones
 3. Listo
+
+### En la terminar ingresar: ng g c seguridad/registrar --module app.module
+*g -> generar
+*c -> componente
+*seguridad/registrar -> crear la carpeta seguridad y el archivo registrar
+*--module app.module -> importación sobre app.module.ts
