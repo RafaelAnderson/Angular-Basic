@@ -1,4 +1,8 @@
+import { Subject } from "rxjs";
+
 export class LibrosService {
+  librosSubject = new Subject();
+
   // Solo la clase que lo contiene tiene la clase a este recurso
   private libros = [
     'Libros de Vaxi',
@@ -8,6 +12,7 @@ export class LibrosService {
 
   agregarLibro(libroNombre: string) {
     this.libros.push(libroNombre);
+    this.librosSubject.next();
   }
 
   obtenerLibros() {
