@@ -31,3 +31,8 @@ En una terminal ejecutar el siguiente comando: npm install -g @angular/cli
 5. En la terminal: cd NOMBRE-PROYECTO, enter
 6. En la terminal: code ., enter
 7. El proyecto estará abierto en VS Code :)
+
+### Agregar Angular Material
+1. En la terminal: ng add @angular/material
+2. "y" en las opciones
+3. Listo
