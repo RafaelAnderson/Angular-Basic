@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 //
 import { LibroComponent } from './libro/libro.component';
 import { LibrosComponent } from './libros/libros.component';
+// Libro Service
+import { LibrosService } from './services/libros.service';
 
 
 @NgModule({
@@ -25,7 +27,7 @@ import { LibrosComponent } from './libros/libros.component';
     AppRoutingModule,
     FormsModule // Formularios en Angular
   ],
-  providers: [],
+  providers: [LibrosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

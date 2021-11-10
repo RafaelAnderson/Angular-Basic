@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LibrosService } from '../services/libros.service';
 
 @Component({
   selector: 'app-libros',
@@ -6,19 +7,26 @@ import { Component } from '@angular/core';
 })
 export class LibrosComponent {
   // Shift + Alt + f
-  libros = ['Cien años de Soledad', 'La fiesta del chivo', 'La Metamorfosis'];
+  // libros = ['Cien años de Soledad', 'La fiesta del chivo', 'La Metamorfosis'];
 
-  eliminarLibro(libro: any) {
-    this.libros = this.libros.filter((p) => p !== libro);
+  libros = [""];
+
+  // Constructor
+  constructor(private librosService: LibrosService) {
+    this.libros = librosService.obtenerLibros();
   }
 
-  guardarLibro(f: any){
+  eliminarLibro(libro: any) {
+    // this.libros = this.libros.filter((p) => p !== libro);
+  }
+
+  guardarLibro(f: any) {
     // Mensaje por la consola del navegador
     // console.log('objeto formulario', f);
 
     //Validar que los campos no esten vacios - valid (verdadero o falso)
-    if(f.valid){
-      this.libros.push(f.value.nombreLibro)
+    if (f.valid) {
+      // this.libros.push(f.value.nombreLibro)
     }
   }
 }
