@@ -13,6 +13,7 @@ import { LibroComponent } from './libro/libro.component';
 import { LibrosComponent } from './libros/libros.component';
 // Libro Service
 import { LibrosService } from './services/libros.service';
+import { InicioComponent } from './inicio.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LibrosService } from './services/libros.service';
     AppComponent,
     UsuarioComponent,
     LibrosComponent,
-    LibroComponent
+    LibroComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
