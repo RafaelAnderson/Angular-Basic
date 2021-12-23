@@ -42,3 +42,6 @@ En una terminal ejecutar el siguiente comando: npm install -g @angular/cli
 *c -> componente
 *seguridad/registrar -> crear la carpeta seguridad y el archivo registrar
 *--module app.module -> importación sobre app.module.ts
+
+### Flex Layout
+Comando: npm i -s @angular/flex-layout @angular/cdk

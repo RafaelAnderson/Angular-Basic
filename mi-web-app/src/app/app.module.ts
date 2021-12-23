@@ -18,6 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { RegistrarComponent } from './seguridad/registrar/registrar.component';
 import { LoginComponent } from './seguridad/login/login.component';
+// Flex Layout
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 
 @NgModule({
@@ -35,7 +37,8 @@ import { LoginComponent } from './seguridad/login/login.component';
     AppRoutingModule,
     FormsModule, // Formularios en Angular
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule // Flex Layout
   ],
   providers: [LibrosService],
   bootstrap: [AppComponent]
