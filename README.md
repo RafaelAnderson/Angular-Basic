@@ -1,4 +1,6 @@
-# Angular 12
+#Aplicación Angular Básica
+
+## Angular 12
 
 Arquitecturas sólidas con Angular 12, NET Core, Firebase, Redis, Docker Containers, SQL Server
 
