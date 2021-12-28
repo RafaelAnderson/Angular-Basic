@@ -4,7 +4,7 @@
 
 Arquitecturas sólidas con Angular 12, NET Core, Firebase, Redis, Docker Containers, SQL Server
 
-## Instalación Node y npm
+## Instalación Node y npm (necesario)
 
 Enlace de descarga de Node.js (LTL): https://nodejs.org/en/
 
